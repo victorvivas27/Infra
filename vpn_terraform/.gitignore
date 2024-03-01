@@ -1,0 +1,14 @@
+# Ignorar directorio .terraform/
+.terraform/
+
+# Ignorar archivos de estado de Terraform
+*.tfstate
+*.tfstate.backup
+*.tfplan
+
+# Ignorar archivo de bloqueo de Terraform
+.terraform.lock.hcl
+
+# Ignorar archivos de configuración personalizados
+.terraformrc
+terraform.rc
